@@ -3,7 +3,7 @@ cask "bndry" do
   name "bndry"
   desc "Friendly CLI wrapper for HashiCorp Boundary focused on SSH workflows"
   homepage "https://github.com/ofkm/bndry"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "bndry" do
   on_macos do
     on_intel do
       url "https://github.com/ofkm/bndry/releases/download/v#{version}/bndry_Darwin_x86_64.tar.gz"
-      sha256 "15bb26cecabfa07415bd4071b7ec282ff5716704570241cb69e77937b900b2ff"
+      sha256 "e69bf8b8f54e4e17c7740342f35bb05f2f75c0978fc6658f5d01f52635b76706"
     end
     on_arm do
       url "https://github.com/ofkm/bndry/releases/download/v#{version}/bndry_Darwin_arm64.tar.gz"
-      sha256 "e9dcbd38e6d5317b09e5d38a201dcfa4fc6b1d2d88231f34883f9ff263370fea"
+      sha256 "8d9e37ca0790d31d19fc24d7222eb6f19207bfe7e5159431adae4700cf105fda"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ofkm/bndry/releases/download/v#{version}/bndry_Linux_x86_64.tar.gz"
-      sha256 "e047648149cccfb8d45b8c19fa3b4e44342245b2bcd1bbe3231b7dd077d43b74"
+      sha256 "8f6beb7b414c895219b26464aef68cd1a21efbbdd01c7504dc73784e66f6aa3c"
     end
     on_arm do
       url "https://github.com/ofkm/bndry/releases/download/v#{version}/bndry_Linux_arm64.tar.gz"
-      sha256 "c2e28d31a348ffe48ad67e4f4b9d7873b072c6193292fd728df869adb2110e8e"
+      sha256 "1151976a1a6e118ceaea85253a95a1cd31d45afb1da155ff2c7c07e4ad6549da"
     end
   end
 
